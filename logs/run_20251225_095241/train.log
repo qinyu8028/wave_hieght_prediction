@@ -1,0 +1,30 @@
+[2025-12-25 09:52:41] INFO: Experiment started. Saving results to: logs\run_20251225_095241
+[2025-12-25 09:52:41] INFO: Using device: cuda
+[2025-12-25 09:52:41] INFO: Loading data...
+[2025-12-25 09:52:46] INFO: ----------Starting training----------
+[2025-12-25 09:53:09] INFO: ----------Training finished----------
+
+[2025-12-25 09:53:09] INFO: ----------Start testing----------
+[2025-12-25 09:53:09] INFO: ----------Selecting best checkpoint----------
+[2025-12-25 09:53:09] INFO: epoch_10.pth: RMSE=0.0598
+[2025-12-25 09:53:09] INFO: epoch_100.pth: RMSE=0.0405
+[2025-12-25 09:53:09] INFO: epoch_20.pth: RMSE=0.0594
+[2025-12-25 09:53:09] INFO: epoch_30.pth: RMSE=0.0453
+[2025-12-25 09:53:09] INFO: epoch_40.pth: RMSE=0.0450
+[2025-12-25 09:53:09] INFO: epoch_50.pth: RMSE=0.0493
+[2025-12-25 09:53:09] INFO: epoch_60.pth: RMSE=0.0488
+[2025-12-25 09:53:09] INFO: epoch_70.pth: RMSE=0.0467
+[2025-12-25 09:53:09] INFO: epoch_80.pth: RMSE=0.0422
+[2025-12-25 09:53:09] INFO: epoch_90.pth: RMSE=0.0417
+[2025-12-25 09:53:09] INFO: Best model copied to ./checkpoints\best_checkpoint.pth. RMSE:0.0405
+[2025-12-25 09:53:09] INFO: 
+----------Starting testing----------
+[2025-12-25 09:53:09] INFO: 
+Test Results:
+MSE: 0.0016
+RMSE: 0.0405
+MAE: 0.0297
+R2 Score: 0.9689
+[2025-12-25 09:53:09] INFO: 
+----------Visualizing results----------
+[2025-12-25 09:53:11] INFO: All done successfully!
