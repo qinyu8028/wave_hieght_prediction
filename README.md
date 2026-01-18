@@ -32,7 +32,7 @@ The model architecture is designed to handle discontinuous sensor data effective
 
 
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Prerequisites
 **Environment:**
